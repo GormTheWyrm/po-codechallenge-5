@@ -52,19 +52,16 @@ public class ProblemOne {
                     else{
                         doubledReversed.append(Character.getNumericValue(wip.charAt(i)));
                     }
-                    System.out.println(doubledReversed);//looks alright...not testing values yet
+
                 }//end doubling... should have made these functions
                 //SUM
             int sum = 0;
                 for (int i = 0; i<doubledReversed.length();i++){
                     sum += Character.getNumericValue(doubledReversed.charAt(i));
                 }
-                System.out.println("Sum: " +sum);//
                 String sumStr = Integer.toString(sum);
                 int lastDigit = Character.getNumericValue(sumStr.charAt(sumStr.length()-1));
-            System.out.println("last Digit: " + lastDigit);//
                 int checkDigit = Character.getNumericValue(strNum.charAt(strNum.length()-1));
-            System.out.println("Check Digit: " + checkDigit);//
 
                 if (10-(lastDigit)==checkDigit){
                     return true;

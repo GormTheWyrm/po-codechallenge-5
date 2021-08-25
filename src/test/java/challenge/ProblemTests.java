@@ -60,6 +60,16 @@ public class ProblemTests {
         System.out.println("100000000000108 returned true");
     }
 
+    @Test
+    @DisplayName("official test case")
+    public void testOfficial(){
+        BigInteger testNum = new BigInteger("1234567890123452");
+        boolean isValid = ProblemOne.isValidCardNumber(testNum);
+        //need to figure out if this is true or false...
+        assertTrue(isValid);
+        System.out.println("Official test returned true");
+    }
+
 
     //leading zeros
 

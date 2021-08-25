@@ -1,65 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="challenge.ProblemTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-08-25T20:53:40" hostname="ORNHEIM" time="0.051">
+<testsuite name="challenge.ProblemTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-08-25T21:02:34" hostname="ORNHEIM" time="0.036">
   <properties/>
-  <testcase name="valid Number" classname="challenge.ProblemTests" time="0.038"/>
-  <testcase name="2 even digits" classname="challenge.ProblemTests" time="0.003"/>
-  <testcase name="valid odd and even digit" classname="challenge.ProblemTests" time="0.003"/>
-  <testcase name="largeNumber" classname="challenge.ProblemTests" time="0.003"/>
+  <testcase name="valid Number" classname="challenge.ProblemTests" time="0.028"/>
+  <testcase name="2 even digits" classname="challenge.ProblemTests" time="0.001"/>
+  <testcase name="valid odd and even digit" classname="challenge.ProblemTests" time="0.001"/>
+  <testcase name="largeNumber" classname="challenge.ProblemTests" time="0.002"/>
+  <testcase name="official test case" classname="challenge.ProblemTests" time="0.001"/>
   <testcase name="smallNumber" classname="challenge.ProblemTests" time="0.001"/>
-  <system-out><![CDATA[1
-10
-100
-1000
-10000
-100000
-1000000
-10000000
-100000000
-1000000000
-10000000000
-100000000000
-1000000000000
-Sum: 1
-last Digit: 1
-Check Digit: 9
-10000000000009 returned true
-1
-10
-100
-1000
-10000
-100000
-1000000
-10000000
-100000000
-1000000000
-10000000000
-100000000000
-1000000000001
-10000000000010
-Sum: 2
-last Digit: 2
-Check Digit: 8
+  <system-out><![CDATA[10000000000009 returned true
 100000000000108 returned true
-1
-10
-100
-1000
-10000
-100000
-1000000
-10000000
-100000000
-1000000000
-10000000000
-100000000000
-1000000000000
-10000000000002
-Sum: 3
-last Digit: 3
-Check Digit: 7
 100000000000017 returned true
 Numbers over 19 digits return false
+Official test returned true
 Numbers under 14 digits return false
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
